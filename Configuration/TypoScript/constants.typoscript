@@ -1,0 +1,28 @@
+plugin.tx_wdbcontact_organizations {
+    view {
+        # cat=plugin.tx_wdbcontact_organizations/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:wdb_contact/Resources/Private/Templates/
+        # cat=plugin.tx_wdbcontact_organizations/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:wdb_contact/Resources/Private/Partials/
+        # cat=plugin.tx_wdbcontact_organizations/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:wdb_contact/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_wdbcontact_organizations//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+plugin.tx_wdbcontact_person {
+    view {
+        # cat=plugin.tx_wdbcontact_person/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:wdb_contact/Resources/Private/Templates/
+        # cat=plugin.tx_wdbcontact_person/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:wdb_contact/Resources/Private/Partials/
+        # cat=plugin.tx_wdbcontact_person/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:wdb_contact/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_wdbcontact_person//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

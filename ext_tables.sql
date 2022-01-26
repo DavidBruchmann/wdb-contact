@@ -1,0 +1,67 @@
+CREATE TABLE tx_wdbcontact_domain_model_organization (
+	title varchar(255) NOT NULL DEFAULT '',
+	division varchar(255) NOT NULL DEFAULT '',
+	street varchar(255) NOT NULL DEFAULT '',
+	house_number varchar(255) NOT NULL DEFAULT '',
+	city varchar(255) NOT NULL DEFAULT '',
+	zip varchar(255) NOT NULL DEFAULT '',
+	country varchar(255) NOT NULL DEFAULT '',
+	email varchar(255) NOT NULL DEFAULT '',
+	www varchar(255) NOT NULL DEFAULT '',
+	telephone varchar(255) NOT NULL DEFAULT '',
+	mobile varchar(255) NOT NULL DEFAULT '',
+	skype varchar(255) NOT NULL DEFAULT '',
+	slack varchar(255) NOT NULL DEFAULT '',
+	whats_app varchar(255) NOT NULL DEFAULT '',
+	additional_text text,
+	kununu varchar(255) NOT NULL DEFAULT '',
+	linkedin varchar(255) NOT NULL DEFAULT '',
+	xing varchar(255) NOT NULL DEFAULT '',
+	twitter varchar(255) NOT NULL DEFAULT '',
+	facebook varchar(255) NOT NULL DEFAULT '',
+	instagram varchar(255) NOT NULL DEFAULT '',
+	github varchar(255) NOT NULL DEFAULT '',
+	gitlab varchar(255) NOT NULL DEFAULT '',
+	bitbucket varchar(255) NOT NULL DEFAULT '',
+	persons int(11) unsigned NOT NULL DEFAULT '0'
+);
+
+CREATE TABLE tx_wdbcontact_domain_model_person (
+	first_name varchar(255) NOT NULL DEFAULT '',
+	last_name varchar(255) NOT NULL DEFAULT '',
+	title varchar(255) NOT NULL DEFAULT '',
+	user_name varchar(255) NOT NULL DEFAULT '',
+	street varchar(255) NOT NULL DEFAULT '',
+	house_number varchar(255) NOT NULL DEFAULT '',
+	zip varchar(255) NOT NULL DEFAULT '',
+	city varchar(255) NOT NULL DEFAULT '',
+	country varchar(255) NOT NULL DEFAULT '',
+	email varchar(255) NOT NULL DEFAULT '',
+	www varchar(255) NOT NULL DEFAULT '',
+	telephone varchar(255) NOT NULL DEFAULT '',
+	mobile varchar(255) NOT NULL DEFAULT '',
+	skype varchar(255) NOT NULL DEFAULT '',
+	slack varchar(255) NOT NULL DEFAULT '',
+	whats_app varchar(255) NOT NULL DEFAULT '',
+	additional_text text,
+	kununu varchar(255) NOT NULL DEFAULT '',
+	linkedin varchar(255) NOT NULL DEFAULT '',
+	xing varchar(255) NOT NULL DEFAULT '',
+	twitter varchar(255) NOT NULL DEFAULT '',
+	facebook varchar(255) NOT NULL DEFAULT '',
+	instagram varchar(255) NOT NULL DEFAULT '',
+	github varchar(255) NOT NULL DEFAULT '',
+	gitlab varchar(255) NOT NULL DEFAULT '',
+	bitbucket varchar(255) NOT NULL DEFAULT ''
+);
+
+CREATE TABLE tx_wdbcontact_organization_person_mm (
+	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
+	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
+	sorting int(11) unsigned DEFAULT '0' NOT NULL,
+	sorting_foreign int(11) unsigned DEFAULT '0' NOT NULL,
+
+	PRIMARY KEY (uid_local,uid_foreign),
+	KEY uid_local (uid_local),
+	KEY uid_foreign (uid_foreign)
+);

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wdb_contact/Resources/Private/Language/locallang" date="2021-10-09T22:51:37Z" product-name="wdb_contact">
+		<header/>
+		<body>
+			<trans-unit id="tx_wdbcontact_domain_model_organization" resname="tx_wdbcontact_domain_model_organization">
+				<source>Organization</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.title" resname="tx_wdbcontact_domain_model_organization.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.division" resname="tx_wdbcontact_domain_model_organization.division">
+				<source>Division</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.street" resname="tx_wdbcontact_domain_model_organization.street">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.house_number" resname="tx_wdbcontact_domain_model_organization.house_number">
+				<source>House Number</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.city" resname="tx_wdbcontact_domain_model_organization.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.zip" resname="tx_wdbcontact_domain_model_organization.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.country" resname="tx_wdbcontact_domain_model_organization.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.email" resname="tx_wdbcontact_domain_model_organization.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.www" resname="tx_wdbcontact_domain_model_organization.www">
+				<source>Www</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.telephone" resname="tx_wdbcontact_domain_model_organization.telephone">
+				<source>Telephone</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.mobile" resname="tx_wdbcontact_domain_model_organization.mobile">
+				<source>Mobile</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.skype" resname="tx_wdbcontact_domain_model_organization.skype">
+				<source>Skype</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.slack" resname="tx_wdbcontact_domain_model_organization.slack">
+				<source>Slack</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.whats_app" resname="tx_wdbcontact_domain_model_organization.whats_app">
+				<source>Whats App</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.additional_text" resname="tx_wdbcontact_domain_model_organization.additional_text">
+				<source>Additional Text</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.kununu" resname="tx_wdbcontact_domain_model_organization.kununu">
+				<source>Kununu</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.linkedin" resname="tx_wdbcontact_domain_model_organization.linkedin">
+				<source>Linkedin</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.xing" resname="tx_wdbcontact_domain_model_organization.xing">
+				<source>Xing</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.twitter" resname="tx_wdbcontact_domain_model_organization.twitter">
+				<source>Twitter</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.facebook" resname="tx_wdbcontact_domain_model_organization.facebook">
+				<source>Facebook</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.instagram" resname="tx_wdbcontact_domain_model_organization.instagram">
+				<source>Instagram</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.github" resname="tx_wdbcontact_domain_model_organization.github">
+				<source>Github</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.gitlab" resname="tx_wdbcontact_domain_model_organization.gitlab">
+				<source>Gitlab</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.bitbucket" resname="tx_wdbcontact_domain_model_organization.bitbucket">
+				<source>Bitbucket</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_organization.persons" resname="tx_wdbcontact_domain_model_organization.persons">
+				<source>Persons</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person" resname="tx_wdbcontact_domain_model_person">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.first_name" resname="tx_wdbcontact_domain_model_person.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.last_name" resname="tx_wdbcontact_domain_model_person.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.title" resname="tx_wdbcontact_domain_model_person.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.user_name" resname="tx_wdbcontact_domain_model_person.user_name">
+				<source>User Name</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.street" resname="tx_wdbcontact_domain_model_person.street">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.house_number" resname="tx_wdbcontact_domain_model_person.house_number">
+				<source>House Number</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.zip" resname="tx_wdbcontact_domain_model_person.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.city" resname="tx_wdbcontact_domain_model_person.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.country" resname="tx_wdbcontact_domain_model_person.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.email" resname="tx_wdbcontact_domain_model_person.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.www" resname="tx_wdbcontact_domain_model_person.www">
+				<source>Www</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.telephone" resname="tx_wdbcontact_domain_model_person.telephone">
+				<source>Telephone</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.mobile" resname="tx_wdbcontact_domain_model_person.mobile">
+				<source>Mobile</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.skype" resname="tx_wdbcontact_domain_model_person.skype">
+				<source>Skype</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.slack" resname="tx_wdbcontact_domain_model_person.slack">
+				<source>Slack</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.whats_app" resname="tx_wdbcontact_domain_model_person.whats_app">
+				<source>Whats App</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.additional_text" resname="tx_wdbcontact_domain_model_person.additional_text">
+				<source>Additional Text</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.kununu" resname="tx_wdbcontact_domain_model_person.kununu">
+				<source>Kununu</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.linkedin" resname="tx_wdbcontact_domain_model_person.linkedin">
+				<source>Linkedin</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.xing" resname="tx_wdbcontact_domain_model_person.xing">
+				<source>Xing</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.twitter" resname="tx_wdbcontact_domain_model_person.twitter">
+				<source>Twitter</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.facebook" resname="tx_wdbcontact_domain_model_person.facebook">
+				<source>Facebook</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.instagram" resname="tx_wdbcontact_domain_model_person.instagram">
+				<source>Instagram</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.github" resname="tx_wdbcontact_domain_model_person.github">
+				<source>Github</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.gitlab" resname="tx_wdbcontact_domain_model_person.gitlab">
+				<source>Gitlab</source>
+			</trans-unit>
+			<trans-unit id="tx_wdbcontact_domain_model_person.bitbucket" resname="tx_wdbcontact_domain_model_person.bitbucket">
+				<source>Bitbucket</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,84 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Organization:
+          List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+    <h1>Listing for Organization</h1>
+
+    <f:flashMessages />
+
+    <table class="tx_wdbcontact">
+        <tr>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.title" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.division" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.street" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.house_number" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.city" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.zip" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.country" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.email" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.www" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.telephone" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.mobile" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.skype" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.slack" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.whats_app" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.additional_text" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.kununu" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.linkedin" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.xing" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.twitter" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.facebook" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.instagram" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.github" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.gitlab" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_organization.bitbucket" /></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <f:for each="{organizations}" as="organization">
+            <tr>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.title}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.division}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.street}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.houseNumber}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.city}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.zip}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.country}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.email}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.www}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.telephone}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.mobile}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.skype}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.slack}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.whatsApp}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.additionalText}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.kununu}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.linkedin}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.xing}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.twitter}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.facebook}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.instagram}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.github}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.gitlab}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{organization : organization}">{organization.bitbucket}</f:link.action></td>
+                <td><f:link.action action="edit" arguments="{organization : organization}">Edit</f:link.action></td>
+                <td><f:link.action action="delete" arguments="{organization : organization}">Delete</f:link.action></td>
+            </tr>
+        </f:for>
+    </table>
+
+    <f:link.action action="new">New Organization</f:link.action>
+</f:section>
+</html>

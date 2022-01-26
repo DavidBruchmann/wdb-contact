@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wdb_contact/Resources/Private/Language/locallang_csh" date="2021-10-09T22:51:37Z" product-name="wdb_contact">
+		<header/>
+		<body>
+			<trans-unit id="first_name.description" resname="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description" resname="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="user_name.description" resname="user_name.description">
+				<source>userName</source>
+			</trans-unit>
+			<trans-unit id="street.description" resname="street.description">
+				<source>street</source>
+			</trans-unit>
+			<trans-unit id="house_number.description" resname="house_number.description">
+				<source>houseNumber</source>
+			</trans-unit>
+			<trans-unit id="zip.description" resname="zip.description">
+				<source>zip</source>
+			</trans-unit>
+			<trans-unit id="city.description" resname="city.description">
+				<source>city</source>
+			</trans-unit>
+			<trans-unit id="country.description" resname="country.description">
+				<source>country</source>
+			</trans-unit>
+			<trans-unit id="email.description" resname="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="www.description" resname="www.description">
+				<source>www</source>
+			</trans-unit>
+			<trans-unit id="telephone.description" resname="telephone.description">
+				<source>telephone</source>
+			</trans-unit>
+			<trans-unit id="mobile.description" resname="mobile.description">
+				<source>mobile</source>
+			</trans-unit>
+			<trans-unit id="skype.description" resname="skype.description">
+				<source>skype</source>
+			</trans-unit>
+			<trans-unit id="slack.description" resname="slack.description">
+				<source>slack</source>
+			</trans-unit>
+			<trans-unit id="whats_app.description" resname="whats_app.description">
+				<source>whatsApp</source>
+			</trans-unit>
+			<trans-unit id="additional_text.description" resname="additional_text.description">
+				<source>additionalText</source>
+			</trans-unit>
+			<trans-unit id="kununu.description" resname="kununu.description">
+				<source>kununu</source>
+			</trans-unit>
+			<trans-unit id="linkedin.description" resname="linkedin.description">
+				<source>linkedin</source>
+			</trans-unit>
+			<trans-unit id="xing.description" resname="xing.description">
+				<source>xing</source>
+			</trans-unit>
+			<trans-unit id="twitter.description" resname="twitter.description">
+				<source>twitter</source>
+			</trans-unit>
+			<trans-unit id="facebook.description" resname="facebook.description">
+				<source>facebook</source>
+			</trans-unit>
+			<trans-unit id="instagram.description" resname="instagram.description">
+				<source>instagram</source>
+			</trans-unit>
+			<trans-unit id="github.description" resname="github.description">
+				<source>github</source>
+			</trans-unit>
+			<trans-unit id="gitlab.description" resname="gitlab.description">
+				<source>gitlab</source>
+			</trans-unit>
+			<trans-unit id="bitbucket.description" resname="bitbucket.description">
+				<source>bitbucket</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

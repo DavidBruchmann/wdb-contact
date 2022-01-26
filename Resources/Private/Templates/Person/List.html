@@ -1,0 +1,88 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Person:
+          List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+    <h1>Listing for Person</h1>
+
+    <f:flashMessages />
+
+    <table class="tx_wdbcontact">
+        <tr>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.first_name" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.last_name" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.title" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.user_name" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.street" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.house_number" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.zip" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.city" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.country" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.email" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.www" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.telephone" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.mobile" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.skype" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.slack" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.whats_app" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.additional_text" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.kununu" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.linkedin" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.xing" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.twitter" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.facebook" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.instagram" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.github" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.gitlab" /></th>
+            <th><f:translate key="tx_wdbcontact_domain_model_person.bitbucket" /></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <f:for each="{persons}" as="person">
+            <tr>
+                <td><f:link.action action="show" arguments="{person : person}">{person.firstName}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.lastName}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.title}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.userName}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.street}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.houseNumber}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.zip}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.city}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.country}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.email}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.www}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.telephone}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.mobile}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.skype}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.slack}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.whatsApp}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.additionalText}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.kununu}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.linkedin}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.xing}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.twitter}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.facebook}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.instagram}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.github}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.gitlab}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{person : person}">{person.bitbucket}</f:link.action></td>
+                <td><f:link.action action="edit" arguments="{person : person}">Edit</f:link.action></td>
+                <td><f:link.action action="delete" arguments="{person : person}">Delete</f:link.action></td>
+            </tr>
+        </f:for>
+    </table>
+
+    <f:link.action action="new">New Person</f:link.action>
+</f:section>
+</html>
